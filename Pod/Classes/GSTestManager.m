@@ -27,7 +27,7 @@
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     [manager GET:@"https://www.baidu.com" parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         NSString *str = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-        NSLog(@"%@, crc32=%d", str, (int)crc32(0, [responseObject bytes], [responseObject length]));
+        NSLog(@"%@, crc32=%d", str, (int)crc32(0, [responseObject bytes], (uInt)[responseObject length]));
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"%@", error);
     }];

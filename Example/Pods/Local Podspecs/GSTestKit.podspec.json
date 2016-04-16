@@ -1,6 +1,6 @@
 {
   "name": "GSTestKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "GSTestKit repo",
   "description": "Test static Framework",
   "homepage": "https://github.com/0x5e/GSTestKit",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/0x5e/GSTestKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

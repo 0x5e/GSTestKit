@@ -249,6 +249,7 @@ fi
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
 				<string>F909F4152DAB4336A28B0887</string>
+				<string>DCC7F00656CE9E4C04738BB3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -335,6 +336,7 @@ fi
 				<string>6003F5AF195388D20070C39A</string>
 				<string>C12CF043F7757D0CB6C6ECE1</string>
 				<string>1352EC352AE08AA1C264A059</string>
+				<string>81BAF7C5C4D3463FCED2846A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -984,6 +986,8 @@ fi
 				<string>AppIcon</string>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
 				<string>LaunchImage</string>
+				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
+				<string>YES</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
@@ -1014,6 +1018,8 @@ fi
 				<string>AppIcon</string>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
 				<string>LaunchImage</string>
+				<key>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</key>
+				<string>YES</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
@@ -1166,7 +1172,7 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GSTestKit_Example/Pods-GSTestKit_Example-frameworks.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
@@ -1190,10 +1196,23 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GSTestKit_Example/Pods-GSTestKit_Example-resources.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>81BAF7C5C4D3463FCED2846A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>873B8AEA1B1F5CCA007FD442</key>
 		<dict>
@@ -1245,6 +1264,8 @@ fi
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>name</key>
 			<string>LICENSE</string>
 			<key>path</key>
@@ -1258,6 +1279,8 @@ fi
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>name</key>
 			<string>GSTestKit.podspec</string>
 			<key>path</key>
@@ -1308,12 +1331,21 @@ fi
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>DCC7F00656CE9E4C04738BB3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>81BAF7C5C4D3463FCED2846A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>E3027D0B54337C7B029BBDBB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>net.daringfireball.markdown</string>
 			<key>name</key>
 			<string>README.md</string>
 			<key>path</key>

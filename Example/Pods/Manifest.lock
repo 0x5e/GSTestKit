@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - GSTestKit (0.1.0):
+  - GSTestKit (0.1.1):
     - AFNetworking
     - Mantle
   - Mantle (2.0.6):
@@ -22,7 +22,9 @@ PODS:
   - Mantle/extobjc (2.0.6)
 
 DEPENDENCIES:
+  - AFNetworking
   - GSTestKit (from `../`)
+  - Mantle
 
 EXTERNAL SOURCES:
   GSTestKit:
@@ -30,7 +32,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  GSTestKit: 45307df33dd0a6503e06d1faa51e8136e763a3d4
+  GSTestKit: c4af25b8926f6357f4bd4e381384abf6b1c586ae
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
 
 COCOAPODS: 0.39.0

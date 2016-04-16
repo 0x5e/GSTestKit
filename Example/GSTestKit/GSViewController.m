@@ -7,7 +7,7 @@
 //
 
 #import "GSViewController.h"
-#import "GSTestManager.h"
+#import <GSTestKit/GSTestManager.h>
 
 @interface GSViewController ()
 

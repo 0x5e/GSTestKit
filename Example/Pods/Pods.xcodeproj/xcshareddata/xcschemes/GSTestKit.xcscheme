@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A87FB291606E328C8517FBBD'
+               BlueprintIdentifier = '2C437164438320783A1006BC'
                BlueprintName = 'GSTestKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GSTestKit.framework'>

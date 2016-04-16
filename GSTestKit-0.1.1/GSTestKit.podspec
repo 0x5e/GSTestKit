@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, '7.0'
   s.ios.platform             = :ios, '7.0'
-  s.ios.preserve_paths       = 'ios/GSTestKit.embeddedframework/GSTestKit.framework'
-  s.ios.public_header_files  = 'ios/GSTestKit.embeddedframework/GSTestKit.framework/Versions/A/Headers/*.h'
-  s.ios.resource             = 'ios/GSTestKit.embeddedframework/GSTestKit.framework/Versions/A/Resources/**/*'
-  s.ios.vendored_frameworks  = 'ios/GSTestKit.embeddedframework/GSTestKit.framework'
+  s.ios.preserve_paths       = 'ios/GSTestKit.framework'
+  s.ios.public_header_files  = 'ios/GSTestKit.framework/Versions/A/Headers/*.h'
+  s.ios.resource             = 'ios/GSTestKit.framework/Versions/A/Resources/**/*'
+  s.ios.vendored_frameworks  = 'ios/GSTestKit.framework'
 end
