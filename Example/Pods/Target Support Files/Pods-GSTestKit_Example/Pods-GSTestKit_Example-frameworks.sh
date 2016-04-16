@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-GSTestKit_Example/AFNetworking.framework"
   install_framework "Pods-GSTestKit_Example/GSTestKit.framework"
   install_framework "Pods-GSTestKit_Example/Mantle.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-GSTestKit_Example/AFNetworking.framework"
   install_framework "Pods-GSTestKit_Example/GSTestKit.framework"
   install_framework "Pods-GSTestKit_Example/Mantle.framework"
 fi

@@ -22,6 +22,7 @@
     GSTestManager *manager = [[GSTestManager alloc] init];
     GSTestModel *model = [manager getTestModel];
     NSLog(@"%@", model);
+    [manager testRequest];
 }
 
 - (void)didReceiveMemoryWarning

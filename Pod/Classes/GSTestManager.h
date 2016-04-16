@@ -12,5 +12,6 @@
 @interface GSTestManager : NSObject
 
 - (GSTestModel *)getTestModel;
+- (void)testRequest;
 
 @end
