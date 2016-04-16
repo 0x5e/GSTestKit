@@ -7,6 +7,7 @@
 //
 
 #import "GSViewController.h"
+#import "GSTestManager.h"
 
 @interface GSViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    GSTestManager *manager = [[GSTestManager alloc] init];
+    GSTestModel *model = [manager getTestModel];
+    NSLog(@"%@", model);
 }
 
 - (void)didReceiveMemoryWarning

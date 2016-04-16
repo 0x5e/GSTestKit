@@ -1,0 +1,6 @@
+framework module GSTestKit {
+  umbrella header "GSTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

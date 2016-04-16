@@ -1,0 +1,19 @@
+PODS:
+  - GSTestKit (0.1.0):
+    - Mantle
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+
+DEPENDENCIES:
+  - GSTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  GSTestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GSTestKit: 21b05718ce78c84d6fdfbf9497ef20a0d615234a
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+
+COCOAPODS: 0.39.0
