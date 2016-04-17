@@ -2,16 +2,16 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'GSTestKit_Example', :exclusive => true do
-#  pod 'GSTestKit', :path => '../'
-  pod 'GSTestKit', :path => '../GSTestKit-0.1.1/'
-  pod 'Mantle'
-  pod 'AFNetworking'
+  pod 'GSTestKit', :path => '../'
+#  pod 'GSTestKit', :path => '../GSTestKit-0.1.1/'
+#  pod 'Mantle'
+#  pod 'AFNetworking'
 end
 
 target 'GSTestKit_Tests', :exclusive => true do
-#  pod 'GSTestKit', :path => '../'
-  pod 'GSTestKit', :path => '../GSTestKit-0.1.1/'
-  pod 'Mantle'
-  pod 'AFNetworking'
+  pod 'GSTestKit', :path => '../'
+#  pod 'GSTestKit', :path => '../GSTestKit-0.1.1/'
+#  pod 'Mantle'
+#  pod 'AFNetworking'
 
 end

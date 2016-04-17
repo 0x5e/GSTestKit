@@ -17,14 +17,12 @@ PODS:
   - GSTestKit (0.1.1):
     - AFNetworking
     - Mantle
-  - Mantle (2.0.6):
-    - Mantle/extobjc (= 2.0.6)
-  - Mantle/extobjc (2.0.6)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
 
 DEPENDENCIES:
-  - AFNetworking
   - GSTestKit (from `../`)
-  - Mantle
 
 EXTERNAL SOURCES:
   GSTestKit:
@@ -33,6 +31,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   GSTestKit: c4af25b8926f6357f4bd4e381384abf6b1c586ae
-  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
 
 COCOAPODS: 0.39.0
